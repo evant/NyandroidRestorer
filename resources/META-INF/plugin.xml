@@ -2,16 +2,16 @@
   <id>me.tatarka.nyandroid.NyandroidRestorer</id>
   <name>Nyandroid Restorer</name>
   <version>1.0</version>
-  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+  <vendor email="evan@tatarka.me" url="https://github.com/evant/NyandroidRestorer">NyandroidRestorer</vendor>
 
   <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
+      Restore our favorite pop-tart-rainbow friend in Android Studio
     ]]></description>
 
   <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
+      <ul>
+        <li> 1.0 - Initial Release </li>
+      </ul>
     ]]>
   </change-notes>
 
@@ -21,9 +21,7 @@
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
        on how to target different products -->
   <!-- uncomment to enable plugin in all products
-  <depends>com.intellij.modules.lang</depends>
   -->
-
   <depends>com.intellij.modules.lang</depends>
 
   <extensions defaultExtensionNs="com.intellij">
