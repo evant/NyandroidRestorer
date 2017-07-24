@@ -1,40 +1,41 @@
 <idea-plugin>
-  <id>me.tatarka.nyandroid.NyandroidRestorer</id>
-  <name>Nyandroid Restorer</name>
-  <version>1.0</version>
-  <vendor email="evan@tatarka.me" url="https://github.com/evant/NyandroidRestorer">NyandroidRestorer</vendor>
+    <id>me.tatarka.nyandroid.NyandroidRestorer</id>
+    <name>Nyandroid Restorer</name>
+    <version>1.0</version>
+    <vendor email="evan@tatarka.me" url="https://github.com/evant/NyandroidRestorer">NyandroidRestorer</vendor>
 
-  <description><![CDATA[
+    <description><![CDATA[
       Restore our favorite pop-tart-rainbow friend in Android Studio
     ]]></description>
 
-  <change-notes><![CDATA[
+    <change-notes><![CDATA[
       <ul>
         <li> 1.0 - Initial Release </li>
       </ul>
     ]]>
-  </change-notes>
+    </change-notes>
 
-  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-  <idea-version since-build="145.0"/>
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="145.0"/>
 
-  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
-       on how to target different products -->
-  <!-- uncomment to enable plugin in all products
-  -->
-  <depends>com.intellij.modules.lang</depends>
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    -->
+    <depends>com.intellij.modules.lang</depends>
+    <depends>com.intellij.modules.androidstudio</depends>
 
-  <extensions defaultExtensionNs="com.intellij">
-    <!-- Add your extensions here -->
-  </extensions>
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
 
-  <actions>
-    <!-- Add your actions here -->
-  </actions>
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
 
-  <project-components>
-    <component>
-      <implementation-class>me.tatarka.nyandroid.NyandroidProject</implementation-class>
-    </component>
-  </project-components>
+    <project-components>
+        <component>
+            <implementation-class>me.tatarka.nyandroid.NyandroidProject</implementation-class>
+        </component>
+    </project-components>
 </idea-plugin>
