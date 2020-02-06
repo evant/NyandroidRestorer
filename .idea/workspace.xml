@@ -20,14 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9ffc652-31c4-4563-85ff-c79842df0613" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NyandroidRestorer.jar" beforeDir="false" afterPath="$PROJECT_DIR$/NyandroidRestorer.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/META-INF/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/tatarka/nyandroid/NyandroidProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/tatarka/nyandroid/NyandroidStartupActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/tatarka/nyandroid/NyandroidStartupActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/tatarka/nyandroid/NyandroidStartupActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,6 +51,9 @@
     <option name="directoryName" value="RLIdFyUO" />
   </component>
   <component name="ProjectId" id="1XPx6c2IX9MIVRldGa4NqlWIGEp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -50,7 +61,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="experimental" />
   </component>
   <component name="RunManager">
     <configuration name="Run" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
@@ -108,49 +119,53 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="741" y="349" width="428" height="474" key="FileChooserDialogImpl/0.0.1920.1200@0.0.1920.1200" timestamp="1580961688111" />
-    <state width="1893" height="667" key="GridCell.Tab.0.bottom" timestamp="1580963617091">
+    <state width="1893" height="303" key="GridCell.Tab.0.bottom" timestamp="1580965693560">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1893" height="667" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1580963617091" />
-    <state width="1893" height="667" key="GridCell.Tab.0.center" timestamp="1580963617089">
+    <state width="1893" height="303" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1580965693560" />
+    <state width="1893" height="303" key="GridCell.Tab.0.center" timestamp="1580965693560">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1893" height="667" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1580963617089" />
-    <state width="1893" height="667" key="GridCell.Tab.0.left" timestamp="1580963617088">
+    <state width="1893" height="303" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1580965693560" />
+    <state width="1893" height="303" key="GridCell.Tab.0.left" timestamp="1580965693560">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1893" height="667" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1580963617088" />
-    <state width="1893" height="667" key="GridCell.Tab.0.right" timestamp="1580963617090">
+    <state width="1893" height="303" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1580965693560" />
+    <state width="1893" height="303" key="GridCell.Tab.0.right" timestamp="1580965693560">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1893" height="667" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1580963617090" />
-    <state width="1893" height="667" key="GridCell.Tab.1.bottom" timestamp="1580963617095">
+    <state width="1893" height="303" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1580965693560" />
+    <state width="1893" height="303" key="GridCell.Tab.1.bottom" timestamp="1580965693561">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1893" height="667" key="GridCell.Tab.1.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1580963617095" />
-    <state width="1893" height="667" key="GridCell.Tab.1.center" timestamp="1580963617093">
+    <state width="1893" height="303" key="GridCell.Tab.1.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1580965693561" />
+    <state width="1893" height="303" key="GridCell.Tab.1.center" timestamp="1580965693561">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1893" height="667" key="GridCell.Tab.1.center/0.0.1920.1200@0.0.1920.1200" timestamp="1580963617093" />
-    <state width="1893" height="667" key="GridCell.Tab.1.left" timestamp="1580963617092">
+    <state width="1893" height="303" key="GridCell.Tab.1.center/0.0.1920.1200@0.0.1920.1200" timestamp="1580965693561" />
+    <state width="1893" height="303" key="GridCell.Tab.1.left" timestamp="1580965693561">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1893" height="667" key="GridCell.Tab.1.left/0.0.1920.1200@0.0.1920.1200" timestamp="1580963617092" />
-    <state width="1893" height="667" key="GridCell.Tab.1.right" timestamp="1580963617094">
+    <state width="1893" height="303" key="GridCell.Tab.1.left/0.0.1920.1200@0.0.1920.1200" timestamp="1580965693561" />
+    <state width="1893" height="303" key="GridCell.Tab.1.right" timestamp="1580965693561">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1893" height="667" key="GridCell.Tab.1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1580963617094" />
-    <state x="445" y="208" key="SettingsEditor" timestamp="1580961639055">
+    <state width="1893" height="303" key="GridCell.Tab.1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1580965693561" />
+    <state x="443" y="190" key="SettingsEditor" timestamp="1580965080361">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="445" y="208" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1580961639055" />
-    <state x="566" y="202" width="766" height="660" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580963573945">
+    <state x="443" y="190" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1580965080361" />
+    <state x="560" y="148" width="766" height="660" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580964666496">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="566" y="202" width="766" height="660" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1580963573945" />
-    <state width="921" height="407" key="javadoc.popup.new" timestamp="1580963045931">
+    <state x="560" y="148" width="766" height="660" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1580964666496" />
+    <state width="921" height="407" key="javadoc.popup.new" timestamp="1580964829354">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="921" height="407" key="javadoc.popup.new/0.0.1920.1200@0.0.1920.1200" timestamp="1580963045931" />
+    <state width="921" height="407" key="javadoc.popup.new/0.0.1920.1200@0.0.1920.1200" timestamp="1580964829354" />
+    <state x="623" y="283" width="672" height="678" key="search.everywhere.popup" timestamp="1580965123386">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="623" y="283" width="672" height="678" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1580965123386" />
   </component>
 </project>
