@@ -2,7 +2,7 @@
     <id>me.tatarka.nyandroid.NyandroidRestorer</id>
     <name>Nyandroid Restorer</name>
     <version>1.2</version>
-    <vendor email="evan@tatarka.me" url="https://github.com/evant/NyandroidRestorer">NyandroidRestorer</vendor>
+    <vendor email="eva@tatarka.me" url="https://github.com/evant/NyandroidRestorer">NyandroidRestorer</vendor>
 
     <description><![CDATA[
       Restore our favorite pop-tart-rainbow friend in Android Studio
@@ -15,11 +15,9 @@
         <li> 1.1 - Update for more modern intellij versions </li>
         <li> 1.0 - Initial Release </li>
       </ul>
-    ]]>
-    </change-notes>
+    ]]></change-notes>
 
-    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-    <idea-version since-build="201.2150" />
+    <idea-version since-build="213.5744" />
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
@@ -28,10 +26,10 @@
     <depends>com.intellij.modules.lang</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <postStartupActivity implementation="me.tatarka.nyandroid.NyandroidStartupActivity" />
     </extensions>
 
-    <actions>
-        <!-- Add your actions here -->
-    </actions>
+    <projectListeners>
+        <listener class="me.tatarka.nyandroid.NyandroidToolWindowListener"
+            topic="com.intellij.openapi.wm.ex.ToolWindowManagerListener" />
+    </projectListeners>
 </idea-plugin>
