@@ -9,4 +9,4 @@ Because google is taking away our fun friend. https://issuetracker.google.com/is
 
 Go to Settings -> Plugins -> Browse Repositories and search for "Nyandroid Restorer"
 
-Alternativly, download https://github.com/evant/NyandroidRestorer/blob/main/NyandroidRestorer-1.4.zip and install with Settings -> Plugins ->  Install plugin from disk
+Alternatively, download https://github.com/evant/NyandroidRestorer/blob/main/NyandroidRestorer-1.5.zip and install with Settings -> Plugins ->  Install plugin from disk
