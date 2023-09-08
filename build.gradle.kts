@@ -1,10 +1,10 @@
 plugins {
     id("java")
-    id("org.jetbrains.intellij") version "1.9.0"
+    id("org.jetbrains.intellij") version "1.15.0"
 }
 
 group = "me.tatarka.nyandroid"
-version = "1.4"
+version = "1.5"
 
 repositories {
     mavenCentral()
@@ -14,6 +14,7 @@ intellij {
 //    version.set("2022.2.1.1")
 //    type.set("AI")
 
+//    version.set("2023.2.1")
     version.set("2021.3")
     type.set("IC")
 

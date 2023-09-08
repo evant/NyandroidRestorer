@@ -10,6 +10,8 @@
 
     <change-notes><![CDATA[
       <ul>
+        <li> 1.5 - Add icon selection in settings. Includes a rainbow & trans flag colored versions of new system ui logcat icon. </li>
+        <li> 1.4 - Switch to using a listener for better loading </li>
         <li> 1.3 - Support Dynamic Plugin Loading/Unloading
         <li> 1.2 - Update with quicker init and dynamic loading </li>
         <li> 1.1 - Update for more modern intellij versions </li>
@@ -26,6 +28,10 @@
     <depends>com.intellij.modules.lang</depends>
 
     <extensions defaultExtensionNs="com.intellij">
+        <applicationService serviceImplementation="me.tatarka.nyandroid.settings.NyandroidAppSettings" />
+        <applicationConfigurable parentId="appearance"
+            instance="me.tatarka.nyandroid.settings.NyandroidAppSettingsConfigurable"
+            id="org.intellij.sdk.settings.AppSettingsConfigurable" displayName="Nyandroid Restorer" />
     </extensions>
 
     <projectListeners>
